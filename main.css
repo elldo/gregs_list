@@ -1,0 +1,114 @@
+body {
+    margin: 0px;
+    padding: 80px;
+}
+
+header {
+    position: fixed;
+    background-color: lightgray;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+header h1 {
+    display: inline-block;
+    padding-left: 15px;
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#navigation {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    vertical-align: middle;
+}
+
+#navigation a {
+    text-decoration: none;
+    font-size: 1.3em;
+    color: purple;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.navigation a:hover {
+    color: red;
+}
+
+.search-btn {
+    vertical-align: bottom;
+    padding: 0px;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+}
+
+.search-btn img {
+    width: 32px;
+    height: 28px;
+    vertical-align: middle;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.container input {
+    width: 400px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 3px;
+    border: 1px solid #DDDDDD;
+}
+
+.page-nav {
+    border: 1px solid #DDDDDD;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+.page-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.sides {
+    text-align: center;
+    padding: 8px 15px;
+    display: inline-block;
+}
+
+.center {
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    padding: 8px 15px;
+}
+
+.orders {
+    margin-top: 20px;
+}
+
+.orders ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.order-date {
+    font-size: 15px;
+    color: gray;
+}
+
+.job {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+li a {
+    text-decoration: none;
+}
